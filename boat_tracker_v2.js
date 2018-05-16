@@ -30,7 +30,7 @@
             if (marker._icon) {
                 const heading = marker._icon.getAttribute('data-heading');
                 if (marker._icon.style.transform.indexOf('rotateZ') === -1) {
-                    marker._icon.style.transform = `${marker._icon.style.transform} rotateZ(${(heading || 0)}deg)`;
+                    //marker._icon.style.transform = `${marker._icon.style.transform} rotateZ(${(heading || 0)}deg)`;
                 }
             }
         }
